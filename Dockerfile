@@ -1,5 +1,5 @@
 # Using official python runtime base image
-FROM image-registry.openshift-image-registry.svc:5000/openshift/python:latest
+FROM image-registry.openshift-image-registry.svc:5000/ubi9/python-311:latest
 
 # Update packages
 USER root
