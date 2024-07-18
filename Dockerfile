@@ -3,7 +3,7 @@ FROM image-registry.openshift-image-registry.svc:5000/openshift/python:3.11-ubi9
 
 # Update packages
 USER root
-RUN yum update -y
+RUN yum update -y && yum update -y python3.11
 USER 1001
 
 # Install our requirements.txt
