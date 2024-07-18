@@ -2,7 +2,9 @@
 FROM image-registry.openshift-image-registry.svc:5000/openshift/python:latest
 
 # Update packages
+USER root
 RUN yum update -y
+USER 1001
 
 # Install our requirements.txt
 ADD requirements.txt /opt/app-root/src/requirements.txt
