@@ -4,4 +4,4 @@
 
 ### Major Features and Improvements
 
-* First version
+* First version release
