@@ -1,7 +1,7 @@
-# Release 0.0.1
+Release 0.0.2
 
 ## Demo changes with release changelog
 
 ### Major Features and Improvements
 
-* First version release
+* Second version release
